@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kompania ime e Ndërtimit</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 0.5em 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5em 1em;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+        .hero {
+            background: url('https://via.placeholder.com/1500x500?text=Imazh+Kryesor+Ndertimi') no-repeat center center/cover;
+            color: #fff;
+            min-height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 1.2em;
+        }
+        .section {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+        .gallery img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kompania ime e Ndërtimit</h1>
+        <p>Ndërtojmë të ardhmen tuaj</p>
+    </header>
+
+    <nav>
+        <a href="#home">Kreu</a>
+        <a href="#about">Rreth Nesh</a>
+        <a href="#services">Shërbimet</a>
+        <a href="#gallery">Galeria</a>
+        <a href="#contact">Kontaktoni</a>
+    </nav>
+
+    <div class="hero" id="home">
+        <h1>Projekte Cilësore, Rezultate të Shkëlqyera</h1>
+        <p>Ekspertë në ndërtimin e shtëpive, godinave dhe infrastrukturës.</p>
+    </div>
+
+    <div class="container">
+        <section id="about" class="section">
+            <h2>Rreth Nesh</h2>
+            <p>Jemi një kompani ndërtimi me përvojë të gjerë në treg. Angazhohemi për të ofruar cilësi maksimale dhe shërbim profesional në çdo projekt. Ekipi ynë i ekspertëve është i përkushtuar ndaj përsosmërisë dhe kënaqësisë së klientëve.</p>
+            <p>Pavarësisht nëse është një ndërtim i ri, rinovim, apo projekt infrastrukturor, ne jemi partneri juaj i besueshëm.</p>
+        </section>
+
+        <section id="services" class="section">
+            <h2>Shërbimet Tona</h2>
+            <ul>
+                <li>Ndërtime Banimi</li>
+                <li>Ndërtime Komerciale</li>
+                <li>Rinovime & Riparime</li>
+                <li>Ndërtim Infrastrukturor</li>
+                <li>Menaxhim Projektesh</li>
+            </ul>
+        </section>
+
+        <section id="gallery" class="section">
+            <h2>Galeria e Projekteve</h2>
+            <div class="gallery">
+                <img src="https://via.placeholder.com/400x300?text=Projekti+1" alt="Projekti 1">
+                <img src="https://via.placeholder.com/400x300?text=Projekti+2" alt="Projekti 2">
+                <img src="https://via.placeholder.com/400x300?text=Projekti+3" alt="Projekti 3">
+                <img src="https://via.placeholder.com/400x300?text=Projekti+4" alt="Projekti 4">
+                <img src="https://via.placeholder.com/400x300?text=Projekti+5" alt="Projekti 5">
+                <img src="https://via.placeholder.com/400x300?text=Projekti+6" alt="Projekti 6">
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Kontaktoni</h2>
+            <p>Jemi këtu për t'ju ndihmuar me projektin tuaj të ardhshëm. Na kontaktoni për një konsultë falas.</p>
+            <p>Email: <a href="mailto:info@kompaniaime.com">info@kompaniaime.com</a></p>
+            <p>Telefoni: +355 6x xxx xxxx</p>
+            <p>Adresa: Rruga Ndërtuesit, Nr. 10, Qyteti</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Kompania ime e Ndërtimit. Të gjitha të drejtat të rezervuara.</p>
+    </footer>
+</body>
+</html>
+
+Si ta përdorësh këtë kod:
+ * Krijo një skedar: Hap një redaktues teksti (si Notepad në Windows, TextEdit në Mac, ose programe më të avancuara si VS Code).
+ * Kopjo kodin: Kopjo të gjithë kodin e mësipërm dhe ngjise në skedarin e ri.
+ * Ruaj skedarin: Ruaje skedarin me emrin index.html (ose çfarëdo emri që dëshiron, por sigurohu që të ketë prapashtesën .html).
+ * Hap në shfletues: Gjeje skedarin index.html në kompjuterin tënd dhe hapje me shfletuesin tënd të preferuar (si Chrome, Firefox, Safari, etj.).
+Çfarë përmban ky kod:
+ * Strukturë bazë HTML: Ka etiketat e nevojshme <html>, <head>, <body>.
+ * CSS i integruar: Stili (<style>) është brenda skedarit HTML për thjeshtësi, por për projekte më të mëdha do të ishte më mirë ta ndanit në një skedar CSS të veçantë. Ky stil përcakton ngjyrat, shkronjat, dhe pozicionimin.
+ * Kreu (Header): Me titullin e kompanisë dhe një slogan.
+ * Navigimi (Navigation): Një shirit navigimi me lidhje që të çojnë te seksione të ndryshme të faqes.
+ * Seksioni Hero: Një imazh i madh kryesor me një titull dhe përshkrim, ideal për të tërhequr vëmendjen. Imazhi aktualisht përdor një "placeholder" nga via.placeholder.com, të cilin mund ta ndryshosh me fotot e tua.
+ * Seksionet e përmbajtjes:
+   * Rreth Nesh (About Us): Një paragraf përshkrues rreth kompanisë.
+   * Shërbimet Tona (Our Services): Një listë e shërbimeve të ofruara.
+   * Galeria e Projekteve (Project Gallery): Një seksion ku mund të shfaqësh imazhe të projekteve. Aktualisht përdor imazhe "placeholder", të cilat duhet t'i zëvendësosh.
+   * Kontaktoni (Contact): Informacion kontakti.
+ * Fundi i faqes (Footer): Me të drejtat e rezervuara.
+Si t'i ndryshosh fotot:
+Në seksionin e galerisë (<div class="gallery">) dhe në seksionin hero (<div class="hero">), do të shohësh tag-e <img> me atributin src.
+Për shembull:
+<img src="https://via.placeholder.com/400x300?text=Projekti+1" alt="Projekti 1">
+Thjesht zëvendëso vlerën e src (https://via.placeholder.com/400x300?text=Projekti+1) me rrugën drejt imazhit tënd.
+ * Nëse imazhi është në të njëjtin dosje me skedarin HTML:
+   src="emri_i_fotos.jpg"
+ * Nëse imazhi është në një nën-dosje (p.sh., "images"):
+   src="images/emri_i_fotos.jpg"
+ * Nëse imazhi është online (nga një URL):
+   src="https://www.shembull.com/foto_e_ndertimit.jpg"
+Mos harro të ndryshosh edhe tekstin brenda atributit alt për çdo imazh, pasi ky tekst përdoret nga lexuesit e ekranit dhe ndihmon për SEO.
+Ky është vetëm një fillim. A dëshiron të shtojmë më shumë seksione, të modifikojmë stilin, apo ke pyetje të tjera specifike rreth këtij kodi?
